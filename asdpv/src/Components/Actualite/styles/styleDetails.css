@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Actualite_details_intro .Actualite_details_title {
+    background-color: rgb(151, 47, 49);
+    padding: 100px 200px 100px 200px;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.Actualite_details_intro .Actualite_details_title h1 {
+    font-weight: bold;
+    width: 70%;
+}
+
+
+.Actualite_details_intro .Actualite_details_title p {
+    width: 70%;
+}
+
+.Actualite_details_intro .actuality_details_image {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px 50px 100px;
+}
+
+.Actualite_details_intro .actuality_details_image img {
+    width: 1000px;
+    height: 600px;
+}
+
+.actuality_details_par {
+    padding: 10px 500px 100px 500px;
+}
+
+.actuality_details_par p {
+    color: gray;
+}
+
+.actuality_details_galery_images {
+    padding: 10px 400px 100px 400px;
+}
+
+.actuality_details_galery_images h3 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.actuality_details_galery_images .divided_line {
+    width: 8%;
+    height: 10px;
+    background-color: rgb(151, 47, 49);
+    margin: 30px 0 30px 0px;
+}
+
+.actuality_details_galery_images .actuality_details_galery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    /* padding: 10px 10px 100px 10px; */
+}
+
+.actuality_details_galery_images .actuality_details_galery img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 992px) {
+
+    .Actualite_details_intro .Actualite_details_title {
+        background-color: rgb(151, 47, 49);
+        padding: 100px 50px 100px 50px;
+        color: white;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .Actualite_details_intro .Actualite_details_title h1 {
+        font-weight: bold;
+        width: 100%;
+    }
+
+
+    .Actualite_details_intro .Actualite_details_title p {
+        width: 100%;
+    }
+
+
+    .Actualite_details_intro .actuality_details_image {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 100px 50px 100px;
+    }
+
+
+    .Actualite_details_intro .actuality_details_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .actuality_details_par {
+        padding: 10px 20px 100px 20px;
+    }
+
+    .actuality_details_galery_images {
+        padding: 10px 20px 100px 20px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+
+    .Actualite_details_intro .actuality_details_image img {
+        width: 900px;
+        height: 600px;
+    }
+
+    .actuality_details_par {
+        padding: 10px 100px 100px 100px;
+    }
+
+    .actuality_details_galery_images {
+        padding: 10px 100px 100px 100px;
+    }
+
+
+    .actuality_details_galery_images .actuality_details_galery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 5px;
+        /* padding: 10px 10px 100px 10px; */
+    }
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1400px) {
+    .actuality_details_par {
+        padding: 10px 250px 100px 250px;
+    }
+
+    .actuality_details_galery_images {
+        padding: 10px 150px 100px 150px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1535px) {
+    .actuality_details_par {
+        padding: 10px 250px 100px 250px;
+    }
+
+    .actuality_details_galery_images {
+        padding: 10px 150px 100px 150px;
+    }
+}
+
+
+@media screen and (min-width: 1535px) and (max-width: 1595px) {
+    .actuality_details_par {
+        padding: 10px 300px 100px 300px;
+    }
+
+    .actuality_details_galery_images {
+        padding: 10px 200px 100px 200px;
+    }
+}
+
+@media screen and (min-width: 1595px) and (max-width: 1790px) {
+    .actuality_details_par {
+        padding: 10px 400px 100px 400px;
+    }
+
+    .actuality_details_galery_images {
+        padding: 10px 300px 100px 300px;
+    }
+
+}
