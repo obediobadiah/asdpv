@@ -1,0 +1,193 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.Actuality_detatils {
+	background-image: url('../assets/IMG_3465.JPG');
+	background-size: cover;
+	background-position: center;
+}
+
+
+.Actuality_detatils .Actuality_Intro {
+	background-color: #1f232f;
+	opacity: 0.8;
+	padding: 200px 150px 200px 150px;
+}
+
+
+.Actuality_Intro h1 {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+
+.Actuality_detatils .Actuality_Intro p {
+	color: white;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.Actuality_Intro {
+	padding: 50px 100px 50px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Actuality_detatils .Actuality_Intro i {
+    margin: 0 10px 0 10px;
+}
+
+
+
+.Actuality_contents .Actualite_boxes {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 15px;
+	padding: 100px 200px;
+	background-color: rgb(255, 255, 255);
+}
+
+.Actuality_contents .Actualite_boxes .Actualite_box {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 30px 0 0 0;
+	position: relative;
+}
+
+.Actualite_box {
+	/* background-image: url('../assets/a19872bf-ead5-4163-98fd-127501fca256.JPG'); */
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 25px;
+}
+
+.Actualite_box .Actualite_box_text {
+	/* padding: 200px; */
+	background-color: transparent;
+	/* background-image: radial-gradient(at top right, #E33C3400 30%, rgb(151, 47, 49) 52%); */
+	opacity: 0.9;
+	border-radius: 25px;
+	padding: 150px 100px 50px 30px;
+}
+
+.Actualite_box .Actualite_box_text .Actualite_box_text_head p {
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+}
+
+.Actualite_box .Actualite_box_text .Actualite_box_text_date p {
+	font-size: 0.7rem;
+	color: white;
+}
+
+.Actualite_box .Actualite_box_text .Actualite_box_text_tit p {
+	margin-top: 8px;
+	/* color: white; */
+	color: white;
+}
+
+.Actualite_box .Actualite_box_text .Actualite_box_text_cont p {
+	margin: 20px 0 20px 0;
+	text-align: justify;
+}
+
+.Actualite_box .Actualite_box_text_but {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	bottom: -30px;
+	left: 30px;
+	position: absolute;
+}
+
+.Actualite_box .Actualite_box_text_but:hover {
+	background-color: #b1872c;
+	color: white;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+
+	.Actuality_contents .Actualite_boxes {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+		padding: 100px 20px;
+		background-color: rgb(255, 255, 255);
+	}
+
+	.Actuality_contents .Actualite_boxes .Actualite_box {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.Actuality_contents .Actuality_Intro {
+		background-color: #10172E;
+		opacity: 0.8;
+		padding: 200px 10px 200px 10px;
+	}
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+	.Actuality_contents .Actualite_boxes {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+		padding: 100px 100px;
+		background-color: rgb(255, 255, 255);
+	}
+
+	.Actuality_contents .Actualite_boxes .Actualite_box {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1400px) {
+	.Actuality_contents .Actualite_boxes {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+		padding: 100px 100px;
+		background-color: rgb(255, 255, 255);
+	}
+
+	.Actuality_contents .Actualite_boxes .Actualite_box {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1535px) {
+
+	.Actuality_contents .Actualite_boxes {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+		padding: 100px 100px;
+		background-color: rgb(255, 255, 255);
+	}
+
+	.Actuality_contents .Actualite_boxes .Actualite_box {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+}
