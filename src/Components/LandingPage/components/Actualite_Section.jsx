@@ -24,7 +24,7 @@ function Actualite_Section() {
 							actualityJSON.map(actualityCont => {
 								return (
 
-									<div className="Actualite_box Actualite_box_1" style={{ backgroundImage: `url(${require("../assets/" + actualityCont.background_img)})` }} key={actualityCont.id}>
+									<div className="Actualite_box Actualite_box_1" style={{ backgroundImage: `url(${require("../../Actualite/assets/" + actualityCont.background_img)})` }} key={actualityCont.id}>
 										<div className="Actualite_box_text" style={{ backgroundImage: actualityCont.background_gradient}}>
 											<div className="Actualite_box_text_date">
 												<p>{actualityCont.date}</p>
