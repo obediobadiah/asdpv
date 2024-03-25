@@ -50,7 +50,7 @@ function Footer() {
 					<div className="footer_links">
 						<div className="asdpv_logo_contact">
 							<h2>Contacts</h2>
-							<p><i className="fas fa-phone" />  +257 62113809</p>
+							<p><i className="fas fa-phone" />  +257 62113809 / 62473741</p>
 							<p><i className="fas fa-envelope" />  asblasdpv@gmail.com</p>
 							<p><i className="fas fa-map-marker-alt" />  Bujumbura, BURUNDI</p>
 						</div>

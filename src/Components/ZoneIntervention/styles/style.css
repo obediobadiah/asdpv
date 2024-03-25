@@ -52,40 +52,88 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: beige;
+	background-color: rgb(151, 47, 49);
 }
 
 
-.ZoneIntervention_textes {
+.ZoneIntervention_page_texte_intro h1 {
+	margin: 50px 150px 50px 150px;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* .ZoneIntervention_textes {
 	display: grid;
 	justify-content: center;
 	align-items: center;
 	padding: 100px 400px;
 	text-align: justify;
-}
+} */
 
-.ZoneIntervention_textes .divided_line {
-	width: 15%;
+.ZoneIntervention_page_texte_intro .divided_line {
+	width: 10%;
 	height: 10px;
-	background-color: rgb(151, 47, 49);
+	background-color: white;
 	margin: 30px 0 30px 0;
 }
 
-.ZoneIntervention_page_galery img {
-	width: 100%;
-	height: auto;
-}
 
-.ZoneIntervention_page_galery {
-	padding: 0 100px 100px 100px;
-}
-
-.ZoneIntervention_page_galery .intro_contents {
-	display: grid;
+.ZoneIntervention_textes_boxes {
+	padding: 50px 400px;
+	/* display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	gap: 5px;
-	padding: 0 100px 100px 100px;
+	gap: 15px;
+	padding: 100px 200px;
+	background-color: rgb(255, 255, 255); */
 }
+
+.ZoneIntervention_textes_box {
+	display: flex;
+	gap: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	margin: 50px 0;
+}
+
+.ZoneIntervention_textes_box .ZoneIntervention_textes_box_img .buj_img {
+	width: 300px;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.ZoneIntervention_textes_box .ZoneIntervention_textes_box_img .cong_img {
+	width: 300px;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.ZoneIntervention_textes_box .ZoneIntervention_textes_box_zone h1 {
+	font-weight: bold;
+}
+
+.ZoneIntervention_textes_box .ZoneIntervention_textes_box_zone p {
+	/* text-align: justify; */
+	color: gray;
+}
+
+.ZoneIntervention_textes_box .ZoneIntervention_textes_box_zone {
+	padding: 20px;
+}
+
+
+
+.ZoneIntervention_page_footer .ZoneIntervention_Intro_title {
+	background-color: rgb(151, 47, 49);
+	padding: 10px 10px;
+	/* border-radius: 30px; */
+}
+
+
 
 @media screen and (max-width: 992px) {
 
@@ -120,155 +168,100 @@
 
 	.ZoneIntervention_page_texte_intro h1 {
 		margin: 50px 10px 50px 10px;
-		color: #10172E;
-		font-size: 2.5rem;
+		color: white;
+		font-size: 1.5rem;
 		font-weight: bold;
 		text-align: center;
 	}
 
-	.ZoneIntervention_textes {
-		display: grid;
-		justify-content: center;
-		align-items: center;
-		padding: 100px 30px;
-		text-align: justify;
-	}
-	.ZoneIntervention_page_galery .intro_contents {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 5px;
-		padding: 0;
+
+	.ZoneIntervention_page_texte_intro .divided_line {
+		width: 20%;
+		height: 10px;
+		background-color: white;
+		margin: 30px 0 30px 0;
 	}
 
 
-	.ZoneIntervention_page_galery {
-		padding: 0 10px 100px 10px;
+
+	.ZoneIntervention_page_Intro .ZoneIntervention_Intro_title {
+		background-color: #10172E;
+		color: white;
+		opacity: 0.8;
+		padding: 200px 50px 200px 50px;
+		/* border-radius: 30px; */
+	}
+	
+
+	.ZoneIntervention_page_Intro h1 {
+		font-weight: bold;
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+
+	.ZoneIntervention_textes_boxes {
+		padding: 50px 20px;
+	}
+
+	.ZoneIntervention_textes_box {
+		display: grid;
+		gap: 20px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 20px;
+		margin: 50px 0;
+	}
+
+
+	.ZoneIntervention_textes_box .ZoneIntervention_textes_box_img .buj_img {
+		width: 100%;
+		height: 100%;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	.ZoneIntervention_textes_box .ZoneIntervention_textes_box_img .cong_img {
+		width: 100%;
+		height: 100%;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
 	}
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1220px) {
-	.ZoneIntervention_textes {
-		display: grid;
-		justify-content: center;
-		align-items: center;
-		padding: 100px 100px;
-		text-align: justify;
+	.ZoneIntervention_textes_boxes {
+		padding: 50px 100px;
 	}
-
-
-	.ZoneIntervention_page_galery .intro_contents {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 5px;
-		padding: 0;
-	}
-
-
-	.ZoneIntervention_page_galery {
-		padding: 0 20px 100px 20px;
-	}
-
 }
 
 @media screen and (min-width: 1220px) and (max-width: 1400px) {
-	.ZoneIntervention_textes {
-		display: grid;
-		justify-content: center;
-		align-items: center;
-		padding: 100px 250px;
-		text-align: justify;
+	.ZoneIntervention_textes_boxes {
+		padding: 50px 200px;
 	}
-
-
-	.ZoneIntervention_page_galery .intro_contents {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 5px;
-		padding: 0 100px 100px 100px;
-	}
-
-
-	.ZoneIntervention_page_galery {
-		padding: 0 30px 100px 30px;
-	}
-
 }
 
 
 @media screen and (min-width: 1400px) and (max-width: 1535px) {
-	.ZoneIntervention_textes {
-		display: grid;
-		justify-content: center;
-		align-items: center;
-		padding: 100px 300px;
-		text-align: justify;
+	.ZoneIntervention_textes_boxes {
+		padding: 50px 300px;
 	}
-
-
-	.ZoneIntervention_page_galery .intro_contents {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 5px;
-		padding: 0 100px 100px 100px;
-	}
-
-
-	.ZoneIntervention_page_galery {
-		padding: 0 50px 100px 50px;
-	}
-
-
 }
 
 
 @media screen and (min-width: 1535px) and (max-width: 1575px) {
-
-	.ZoneIntervention_textes {
-		display: grid;
-		justify-content: center;
-		align-items: center;
-		padding: 100px 350px;
-		text-align: justify;
+	.ZoneIntervention_textes_boxes {
+		padding: 50px 300px;
 	}
-
-	
-	.ZoneIntervention_page_galery .intro_contents {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 5px;
-		padding: 0 100px 100px 100px;
-	}
-
-
-	.ZoneIntervention_page_galery {
-		padding: 0 50px 100px 50px;
-	}
-
 }
 
 
 @media screen and (min-width: 1575px) and (max-width: 1790px) {
-
-	.ZoneIntervention_textes {
-		display: grid;
-		justify-content: center;
-		align-items: center;
-		padding: 100px 400px;
-		text-align: justify;
+	.ZoneIntervention_textes_boxes {
+		padding: 50px 300px;
 	}
-
-
-	.ZoneIntervention_page_galery .intro_contents {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 5px;
-		padding: 0 100px 100px 100px;
-	}
-
-
-	.ZoneIntervention_page_galery {
-		padding: 0 50px 100px 50px;
-	}
-
 }

@@ -3,6 +3,8 @@ import Header from '../../Header/header'
 import Footer from '../../Footer/components/Footer'
 import '../styles/style.css'
 import { useTranslation } from 'react-i18next'
+import buj from '../assets/femm 1.JPG'
+import cong from '../assets/rent 1.JPG'
 
 function ZoneIntervention() {
 
@@ -20,17 +22,41 @@ function ZoneIntervention() {
 						</div>
 					</div>
 
-					<div class="ZoneIntervention_textes">
+					<div className="ZoneIntervention_page_texte_intro">
 						<div className='divided_line'></div>
-						<p>
-							<strong>L'Assistant Social Avec Désir d'Aider les Personnes Vulnérables (ASDPV)</strong> est bien plus qu'une simple organisation : c'est une communauté dédiée à l'amélioration tangible de la vie des individus les plus vulnérables de notre société. Fondée sur des valeurs d'empathie, d'inclusion et de soutien mutuel, notre équipe s'efforce de créer un environnement bienveillant où chaque personne peut trouver le soutien nécessaire pour surmonter les défis auxquels elle est confrontée. Guidés par notre vision audacieuse et notre détermination inébranlable, nous sommes fiers de transformer des vies, de bâtir des ponts vers un avenir meilleur, et de contribuer à créer un monde où chaque individu est valorisé et respecté. Cette initiative incarne l'impact positif que des individus déterminés peuvent avoir lorsqu'ils unissent leurs forces pour une cause commune, offrant un exemple inspirant de la capacité de la jeunesse à catalyser un changement significatif dans le monde.
-						</p>
-						<p>
-							Fondée le 11 août 2021 par un groupe de jeunes congolais, l'organisation tire son inspiration des défis observés au sein des communautés les plus vulnérables. Animés par un désir ardent d'agir face à l'injustice sociale, en particulier pour les femmes veuves, les enfants orphelins et les démunis, ces visionnaires ont uni leurs forces pour créer une organisation à impact. Reconnaissant les défis uniques auxquels ces groupes sont confrontés, ils se sont engagés à offrir un soutien holistique, à restaurer l'espoir et la dignité de ces individus, et à les aider à trouver un nouveau sens de l'appartenance et de la stabilité à travers des initiatives ciblées telles que le soutien psychosocial, les ressources matérielles et les programmes éducatifs adaptés.
-						</p>
-						<div className='divided_line'></div>
+						<h1>Augmentez votre aide à ceux dans le besoin. Chaque geste de générosité contribue à faire une différence dans la vie des autres et à construire un monde meilleur pour tous.</h1>
 					</div>
 
+
+					<div class="ZoneIntervention_textes">
+						<div className='ZoneIntervention_textes_boxes'>
+							<div className="ZoneIntervention_textes_box">
+								<div className="ZoneIntervention_textes_box_img">
+									<img src={buj} alt="" className='buj_img' />
+								</div>
+								<div className="ZoneIntervention_textes_box_zone">
+									<h1>Burundi, Bujumbura</h1>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eveniet deleniti totam asperiores repellendus dolore dignissimos ut suscipit, repellat nulla voluptates ab officiis obcaecati placeat fugit corrupti voluptatibus delectus cupiditate!</p>
+								</div>
+							</div>
+
+							<div className="ZoneIntervention_textes_box">
+								<div className="ZoneIntervention_textes_box_img">
+									<img src={cong} alt="" className='cong_img' />
+								</div>
+								<div className="ZoneIntervention_textes_box_zone">
+									<h1>RDCongo, Uvira - Goma</h1>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eveniet deleniti totam asperiores repellendus dolore dignissimos ut suscipit, repellat nulla voluptates ab officiis obcaecati placeat fugit corrupti voluptatibus delectus cupiditate!</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div className="ZoneIntervention_page_footer">
+						<div className="ZoneIntervention_Intro_title">
+						</div>
+					</div>
 
 				</div>
 			</div>
