@@ -1,0 +1,220 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', 'PT Sans', sans-serif;
+}
+
+
+.Commission_page_Intro {
+	background-image: url('../assets/IMG_3430.JPG');
+	background-size: cover;
+	background-position: center;
+
+	/* margin: 0 250px; */
+	/* border-radius: 30px; */
+}
+
+
+.Commission_page_Intro .Commission_Intro_title {
+	background-color: #10172E;
+	color: white;
+	opacity: 0.8;
+	padding: 100px 150px 100px 150px;
+	/* border-radius: 30px; */
+}
+
+
+
+.Commission_page_Intro h1 {
+	font-weight: bold;
+
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+
+.Commission_page_Intro .Commission_Intro_title p {
+	text-align: center;
+	font-size: 1rem;
+}
+
+.Commission_page_texte_intro {
+	padding: 50px 100px 50px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: beige;
+}
+
+
+.Commission_page_texte_intro .divided_line {
+	width: 5%;
+	height: 10px;
+	background-color: #10172E;
+	margin: 30px 0 30px 0;
+}
+
+.Commission_page_Intro .Commission_Intro_title i {
+	margin: 0 10px 0 10px;
+}
+
+.Commission_page_texte_intro h1 {
+	margin: 50px 100px 50px 100px;
+	color: #10172E;
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Commission_page_texte_boxes {
+	padding: 100px 300px 100px 300px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 15px;
+}
+
+.Commission_page_texte_boxes .Commission_page_texte_box {
+	color: #10172E;
+	padding: 5%;
+}
+
+.Commission_page_texte_boxes .Commission_page_texte_box h2 {
+	font-weight: bold;
+}
+
+
+.Commission_page_texte_boxes .Commission_page_texte_box p {
+	color: #A4AEBE;
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.Commission_page_texte_boxes {
+		display: grid;
+		justify-content: space-between;
+		padding: 100px 20px 100px 20px;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+	}
+
+	.Commission_page_Intro .Commission_Intro_title {
+		opacity: 0.8;
+		padding: 100px 10px 100px 10px;
+	}
+
+	.Commission_page_texte_boxes .Commission_page_texte_box {
+		color: #10172E;
+		padding: 0;
+		width: 100%;
+		order: 2;
+	}
+
+	.Commission_page_texte_intro {
+		padding: 50px 10px 50px 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	.Commission_page_texte_intro .divided_line {
+		width: 20%;
+		height: 10px;
+		background-color: #10172E;
+		margin: 30px 0 30px 0;
+	}
+
+
+	.Commission_page_texte_intro h1 {
+		margin: 50px 10px 50px 10px;
+		color: #10172E;
+		font-size: 2.5rem;
+		font-weight: bold;
+		text-align: center;
+	}
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+	.Commission_page_texte_boxes .Commission_page_texte_box {
+		color: #10172E;
+		padding: 3%;
+	}
+
+
+	.Commission_page_texte_boxes {
+		padding: 100px 100px 100px 100px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+	}
+
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1400px) {
+	.Commission_page_texte_boxes .Commission_page_texte_box {
+		color: #10172E;
+		padding: 5%;
+	}
+
+
+	.Commission_page_texte_boxes {
+		padding: 100px 100px 100px 100px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+	}
+
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1535px) {
+	.Commission_page_texte_boxes .Commission_page_texte_box {
+		color: #10172E;
+		padding: 5%;
+
+	}
+
+	.Commission_page_texte_boxes {
+		padding: 100px 100px 100px 100px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+	}
+
+
+}
+
+
+@media screen and (min-width: 1535px) and (max-width: 1575px) {
+
+	.Commission_page_texte_boxes {
+		padding: 100px 200px 100px 200px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+	}
+
+	.Commission_page_texte_boxes .Commission_page_texte_box {
+		color: #10172E;
+		padding: 5%;
+	}
+
+}
+
+
+@media screen and (min-width: 1595px) and (max-width: 1790px) {
+
+	.Commission_page_texte_boxes {
+		padding: 100px 200px 0px 200px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 15px;
+	}
+
+}

@@ -54,7 +54,7 @@ function VisionMission() {
 
 							<div className="right_details_box">
 								<i class="fas fa-graduation-cap"></i>
-								<h2>Our Impact</h2>
+								<h2>Notre Impact</h2>
 								<p>Notre impact se manifeste à travers une augmentation significative du taux de scolarisation et des compétences professionnelles.</p>
 							</div>
 						</div>

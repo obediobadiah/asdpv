@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "date": "Le 05 Juillet  2024",
+        "place": "Bujumbura, Burundi",
+        "hour": "08H00'",
+        "title": "Visite dans les centres des Orphelins et Veuves.",
+        "background_img": "3cde6aa3-88c1-4639-8d35-135651a004fd.JPG"
+    },
+    {
+        "id": 2,
+        "date": "Le 15 Mai 2024",
+        "place": "Goma, RDC",
+        "hour": "08H00'",
+        "title": "Visite dans le camp de deplacés de guerre.",
+        "background_img": "IMG_3453.JPG"
+    },
+    {
+        "id": 3,
+        "date": "Le 27 Avril 2024",
+        "place": "Bujumbura, Burundi",
+        "hour": "08H00'",
+        "title": "Ouverture d'un centre de formation en coupe couture.",
+        "background_img": "IMG_3443.JPG"
+    }
+]
