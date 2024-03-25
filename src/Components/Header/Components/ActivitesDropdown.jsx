@@ -18,18 +18,18 @@ function Dropdown() {
         <li>
           <Link
             className="dropdown-link"
-            onClick={() => {window.location.href="/"}}
+            onClick={() => {window.location.href="/Programmes"}}
           > Nos Programmes
           </Link>
           <Link
             className="dropdown-link"
-            onClick={() => {window.location.href="/"}}
+            onClick={() => {window.location.href="/Commissions"}}
           >Nos Commissions
           </Link>
           <Link
             className="dropdown-link"
-            onClick={() => {window.location.href="/"}}
-          >Zone de Intervention
+            onClick={() => {window.location.href="/ZoneIntervention"}}
+          >Nos Zones d'Intervention
           </Link>
         </li>
       </ul>

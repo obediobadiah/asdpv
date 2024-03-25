@@ -3,9 +3,10 @@ import { Routes, BrowserRouter as Router, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import LandingPage from './Components/LandingPage/components/LandingPage'
-// import Programmes from './Components/Programmes/components/Programmes'
-// import Commissions from './Components/Commissions/components/Commission'
-// import ZoneIntervention from './Components/ZoneIntervention/components/ZoneIntervention'
+import Programmes from './Components/Programmes/components/Programmes'
+import Commissions from './Components/Commissions/components/Commissions'
+import Historique from './Components/Historique/components/Historique'
+import ZoneIntervention from './Components/ZoneIntervention/components/ZoneIntervention'
 import VisionMission from './Components/VisionMission/components/VisionMission'
 import Objectifs from './Components/Objectifs/components/Objectifs'
 // import Approches from './Components/Approches/components/Approches'
@@ -33,6 +34,10 @@ function App() {
         <Route path="/Objectifs" element={<Objectifs />} />
         <Route path="/Actualite/" element={<Actualite />} />
         <Route path="/Actualite/:slug" element={<ActualiteDetails />} />
+        <Route path="/Programmes" element={<Programmes />} />
+        <Route path="/Commissions" element={<Commissions />} />
+        <Route path="/Historique" element={<Historique />} />
+        <Route path="/ZoneIntervention" element={<ZoneIntervention />} />
         {/* <Route path="/Programmes" element={<Programmes />} />
         <Route path="/Commissions" element={<Commissions />} />
         <Route path="/ZoneIntervention" element={<ZoneIntervention />} />

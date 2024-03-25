@@ -104,7 +104,7 @@ function Header() {
 								<li className="header-item"
 									onMouseEnter={onMouseEnterAct}
 									onMouseLeave={onMouseLeaveAct}>
-									<span to="" className="header-links" >Nos Activites <i className="fas fa-caret-down" /></span>
+									<span to="" className="header-links" >Initiatives <i className="fas fa-caret-down" /></span>
 									{Actdropdown && <ActivitesDropdown />}
 								</li>
 
@@ -116,14 +116,14 @@ function Header() {
 								</li>
 
 								<li className="header-item">
-									<Link className="header-links" onClick={() => { window.location.href = "/Actualite" }}>Actualite</Link>
+									<Link className="header-links" onClick={() => { window.location.href = "/Actualite" }}>Nos activités</Link>
 								</li>
 
 								{/* <li className="header-item">
 									<Link className="header-links" onClick={() => { window.location.href = "/" }}> Contact</Link>
 								</li> */}
 								<li className="header-item">
-									<Link className="header-links" onClick={() => { window.location.href = "/" }}>Galerie</Link>
+									<Link className="header-links" onClick={() => { window.location.href = "/" }}>Nos Réalisations</Link>
 								</li>
 								<li className="header-item">
 									<div className="donation_button">

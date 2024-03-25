@@ -29,10 +29,10 @@ function SommeNousDropdown() {
           </Link>
           <Link
             className="dropdown-link"
-            onClick={() => {window.location.href="/"}}
-          >Nos Resultats
+            onClick={() => {window.location.href="/Historique"}}
+          >Notre Historique
           </Link>
-          <Link
+          {/* <Link
             className="dropdown-link"
             onClick={() => {window.location.href="/"}}
           >Nos Partenaire
@@ -41,7 +41,7 @@ function SommeNousDropdown() {
             className="dropdown-link"
             onClick={() => {window.location.href="/"}}
           >Nos Outils de travail
-          </Link>
+          </Link> */}
           {/* <Link
             className="dropdown-link"
             onClick={() => {window.location.href="/Approches"}}
