@@ -22,6 +22,7 @@ function ActualiteDetails() {
                             <div className="Actualite_details_intro" key={filteredActuality.id}>
 
                                 <div className="Actualite_details_title">
+                                    <p>{filteredActuality.date}</p>
                                     <h1>{filteredActuality.title}</h1>
                                     <p>{filteredActuality.description}</p>
                                 </div>

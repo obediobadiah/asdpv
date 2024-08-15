@@ -70,7 +70,7 @@
 
 .actuality_details_galery_images .actuality_details_galery img {
     width: 100%;
-    height: auto;
+    height: 250px;
 }
 
 @media screen and (max-width: 992px) {

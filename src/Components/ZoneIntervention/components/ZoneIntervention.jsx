@@ -36,7 +36,7 @@ function ZoneIntervention() {
 								</div>
 								<div className="ZoneIntervention_textes_box_zone">
 									<h1>Burundi, Bujumbura</h1>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eveniet deleniti totam asperiores repellendus dolore dignissimos ut suscipit, repellat nulla voluptates ab officiis obcaecati placeat fugit corrupti voluptatibus delectus cupiditate!</p>
+									<p>Par le biais de programmes éducatifs et de formations professionnelles, nous investissons dans le développement des jeunes, tandis que nos initiatives en matière de santé et de nutrition visent à promouvoir le bien-être général.</p>
 								</div>
 							</div>
 
@@ -46,7 +46,7 @@ function ZoneIntervention() {
 								</div>
 								<div className="ZoneIntervention_textes_box_zone">
 									<h1>RDCongo, Uvira - Goma</h1>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eveniet deleniti totam asperiores repellendus dolore dignissimos ut suscipit, repellat nulla voluptates ab officiis obcaecati placeat fugit corrupti voluptatibus delectus cupiditate!</p>
+									<p>Nous sommes également déterminés à protéger notre environnement pour les générations futures et à promouvoir l'égalité des sexes en renforçant l'autonomisation des femmes et en favorisant leur leadership.</p>
 								</div>
 
 							</div>

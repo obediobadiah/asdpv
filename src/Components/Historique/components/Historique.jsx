@@ -44,8 +44,8 @@ function Historique() {
 				<div className="Historique_page_detatils">
 					<div className="Historique_page_Intro">
 						<div className="Historique_Intro_title">
-							<h1>Notre Historiques</h1>
-							<p>Home <i class="fas fa-angle-right" /> Notre Historiques</p>
+							<h1>Notre Historique</h1>
+							<p>Home <i class="fas fa-angle-right" /> Notre Historique</p>
 						</div>
 					</div>
 

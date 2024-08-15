@@ -122,9 +122,9 @@ function Header() {
 								{/* <li className="header-item">
 									<Link className="header-links" onClick={() => { window.location.href = "/" }}> Contact</Link>
 								</li> */}
-								<li className="header-item">
+								{/* <li className="header-item">
 									<Link className="header-links" onClick={() => { window.location.href = "/" }}>Nos Réalisations</Link>
-								</li>
+								</li> */}
 								<li className="header-item">
 									<div className="donation_button">
 										<Link onClick={() => { window.location.href = "/" }}><button className="donation_btn">DON</button> </Link>

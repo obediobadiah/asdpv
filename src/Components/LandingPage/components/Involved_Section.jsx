@@ -67,7 +67,7 @@ function Involved_Section() {
 							/>
 							<div className="founder_info_names">
 								<h1>Heritier Mutokambali</h1>
-								<p>PRESIDENT, CEO</p>
+								<p>PRESIDENT, Fondateur</p>
 							</div>
 						</div>
 						<div className="founder_button">
